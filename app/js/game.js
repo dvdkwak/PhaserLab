@@ -1,0 +1,1 @@
+const config={type:Phaser.AUTO,width:window.innerWidth,height:window.innerHeight,fps:15,backgroundColor:"#ff5c3f",canvasStyle:"display: block;",title:"DaveKit Phaser",version:"1.0.0",physics:{default:"arcade",arcade:{gravity:{y:0},debug:!1}},scene:[Boot]},game=new Phaser.Game(config);

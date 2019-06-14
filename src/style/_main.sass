@@ -1,0 +1,35 @@
+body
+  background-color: $white
+  overflow: hidden
+  margin: 0
+  padding: 0
+
+  h1
+    color: white
+    font-family: $mainFont
+    font-size: 64px
+    margin: auto
+    text-align: center
+
+
+
+@keyframes rotate
+  0%
+    transform: rotate(0deg)
+  100%
+    transform: rotate(360deg)
+
+
+@keyframes fold
+  0%
+    transform: rotate(90deg)
+    left: -100px
+  80%
+    transform: rotate(-10deg)
+    left: 0px
+  95%
+    transform: rotate(10deg)
+    left: 5px
+  100%
+    transform: rotate(0deg)
+    left: 10px
